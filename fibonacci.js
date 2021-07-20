@@ -3,6 +3,7 @@ var n2 = 1;
 var n = 12;
 var y;
 console.log("list of fibonacci series are");
+console.log("list of fibonacci series are");
 console.log(+ n1 + "," + n2 + ",");
 while(n > 2)
 {
