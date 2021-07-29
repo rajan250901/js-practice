@@ -3,5 +3,5 @@ function pass(total,num)
 {
     return total+num;
 }
-const store = marks.reduce(pass);
-console.log(store);
+const value = marks.reduce(pass);
+console.log(value);

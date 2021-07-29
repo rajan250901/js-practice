@@ -27,11 +27,11 @@ function process(argument)
     setTimeout( () =>{console.log("take rest for a while");},12000);
     setTimeout( () =>{console.log("go to play");},13000);
     setTimeout( () =>{console.log("play " +data.sports[2]);},14000);
-    setTimeout( () =>{console.log("come back home ");},15000);
-    setTimeout( () =>{console.log("start study and do your homework ");},16000);
-    setTimeout( () =>{console.log("take dinner");},17000);
+    setTimeout( () =>{console.log("Come back home ");},15000);
+    setTimeout( () =>{console.log("Start study and do your homework ");},16000);
+    setTimeout( () =>{console.log("Take dinner");},17000);
     setTimeout( () => { console.log("Eat " + data.food3[0] + " and " + data.food3[1]);},17500);
-    setTimeout( () =>{console.log("go to sleep");},18000);
+    setTimeout( () =>{console.log("Go to sleep");},18000);
 }
  process(breakfast);   
  setTimeout( () => { console.log("*********************");},19000);
