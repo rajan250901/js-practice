@@ -21,13 +21,13 @@ function process(argument)
     console.log("study " + data.subjects[0]);
     console.log("get eady for school");
     console.log("go to school");
-    console.log("return home from school");
-    console.log("take lunch");
-    console.log("eat " +data.food2[0]+" , " +data.food2[1]+ " and "+data.food2[4]);
-    console.log("take rest for a while");
+    console.log("Return home from school");
+    console.log("Take lunch");
+    console.log("Eat " +data.food2[0]+" , " +data.food2[1]+ " and "+data.food2[4]);
+    console.log("Take rest for a while");
     console.log("go to play");
     console.log("play " +data.sports[2]);
-    console.log(" come back home ");
+    console.log("come back home ");
     console.log("start study and do your homework ");
     console.log("go to sleep");
 }
