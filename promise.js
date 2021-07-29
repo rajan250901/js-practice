@@ -10,5 +10,5 @@ let mypromise = new Promise(function(resolve,reject){
         reject();
     }
 });
-    mypromise.then(function(){console.log("success");},
-                   function(){console.log("failure");})
+    mypromise.then(function(){console.log("success !!");},
+                   function(){console.log("failure !!");})

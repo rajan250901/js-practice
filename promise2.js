@@ -1,5 +1,5 @@
 let myvariable = new Promise( () => {(resolve,reject)
-let isfull=true;
+let isfull=false;
 if(isfull)
 {
     resolve();
