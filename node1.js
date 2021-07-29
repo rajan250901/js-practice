@@ -1,6 +1,5 @@
 var http = require('http');
-const server = http.createServer((req,res) =>{
-    res.writeHead(200,{contenttype : text/js});
-    res.write("hello Rajan !");
-    res.end();
+http.createServer((req,res) =>{
+    res.writeHead(200,{'content-type':'text/js'});
+    res.end("hello Rajan !");
 }).listen(3000);
