@@ -1,6 +1,6 @@
 let mypromise = new Promise(function(resolve,reject){
-    const x = "Rajan ";
-    const y = "Rajan ";
+    const x = "My name is Rajan";
+    const y = "My name is Rajan";
     if(x===y)
     {
         resolve();

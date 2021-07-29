@@ -1,6 +1,6 @@
 let myvariable = new Promise( () => {(resolve,reject)
 let isfull=true;
-if(!isfull)
+if(isfull)
 {
     resolve();
 }
